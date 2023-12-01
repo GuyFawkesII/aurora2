@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { translations } from '../../data/translation'
+import { translations } from '../data/translation'
 import JoinUs from '../buttons/join_us'
 import {useEffect,useState} from 'react'
 import { push } from "@socialgouv/matomo-next";
