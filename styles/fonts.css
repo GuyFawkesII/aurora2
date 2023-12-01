@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-ExtraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+  font-family: 'monospaced0';
+  src: url('../fonts/Cascadia.ttf') format('truetype');
+}

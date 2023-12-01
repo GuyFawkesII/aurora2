@@ -1,0 +1,78 @@
+@media (min-width: 900px) {
+  .paragraph {
+    text-align : center;
+    padding : 1rem 5.2rem
+  }
+  .paragraph h1 {
+    font-size : 30px;
+    text-align : center;
+  }
+}
+@media (min-width: 600px) {
+    .paragraph {
+      text-align : left;
+      padding : 1rem 6.2rem
+    }
+  } 
+.paragraph{
+    padding: 1rem 1.2rem;
+    color: #024d94;
+    background: #fff;
+  }
+  .container {
+    /* padding-top: 37px; */
+    margin: 0;
+    background: #fff;
+    height: 100vh;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+  }
+  .container h1 {
+    font-size : 40px;
+    font-weight: 800;
+    color : #000
+  }
+  .container a {
+      color : rgb(98, 98, 255)
+  }
+  .categoryTitle {
+      font-size : 30px;
+      font-weight: 700;
+      color : #000;
+      margin : 20px 0 20px;
+  }
+  .buttonContainer{
+      width : 100%;
+      margin: 2rem 0;
+  }
+  .buttonContainer button {
+    /* padding: 14px; */
+    /* height : 100%; */
+    height: 47px;
+    background: #1972f5;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 18px;
+    border: 0;
+    color : #fff
+  }
+  .buttonContainer a {
+    color : #fff;
+    display : block;
+    width : 100%;
+    height : 100%;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .features_container strong {
+    font-size : 20px;
+    color : #000
+  }
+  .features_container p {
+    font-size: 13px;
+   }

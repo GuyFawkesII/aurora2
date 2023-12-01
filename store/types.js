@@ -1,0 +1,8 @@
+export const SET_PREFE = "SET_PREFE"
+export const SAMPLE_ERROR = "SAMPLE_ERROR"
+export const SET_SPLASH = "SET_SPLASH"
+export const SET_CART = "SET_CART"
+export const SET_NOTIFICATION = "SET_NOTIFICATION"
+export const SET_CHANNEL = "SET_CHANNEL"
+export const SET_FILTERED_CHANNELS="SET_FILTERED_CHANNELS"
+export const RESET_FILTER = "RESET_FILTER"

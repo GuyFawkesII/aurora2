@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mask</title>
+    <defs>
+        <path d="M11.6928749,1.5011194 L8.5021322,8.17052239 L1.36327292,9.24347015 C0.0830668088,9.43488806 -0.429992893,11.0619403 0.498400853,11.9938433 L5.66320185,17.1822761 L4.44163113,24.5115672 C4.2217484,25.8363806 5.57524876,26.8287313 6.70886638,26.2091418 L13.0952381,22.7485075 L19.4816098,26.2091418 C20.6152274,26.823694 21.9687278,25.8363806 21.7488451,24.5115672 L20.5272743,17.1822761 L25.6920753,11.9938433 C26.6204691,11.0619403 26.1074094,9.43488806 24.8272033,9.24347015 L17.688344,8.17052239 L14.4976013,1.5011194 C13.9259062,0.312313433 12.2694563,0.297201493 11.6928749,1.5011194 Z" id="path-1"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Light-" transform="translate(-632.000000, -3469.000000)">
+            <g id="Group-33" transform="translate(161.000000, 3469.000000)">
+                <g id="Solid/star" transform="translate(471.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFCB00" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
