@@ -19,7 +19,7 @@ import Apps from '../../components/apps';
 import {MdNavigateNext} from 'react-icons/md'
 import { translations } from '../../data/translation';
 import {FaArrowRightLong} from 'react-icons/fa6'
-import { fetchParams } from "../../api";
+import { fetchParams } from "../api";
 import JoinUs from '../../components/buttons/join_us';
 
 const isTrialPage = process.env.NEXT_PUBLIC_IS_TRIAL

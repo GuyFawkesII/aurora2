@@ -20,7 +20,7 @@ import {reviews,faq,para,splash} from '../../data/home'
 import JoinUs from '../../components/buttons/join_us'
 import AnimatedMap from '../../components/pageCompo/map'
 import { translations } from "../../data/translation";
-import { fetchParams } from "../../api";
+import { fetchParams } from "../api";
 const language = process.env.NEXT_PUBLIC_LANGUAGE
 
 const Testimonials = dynamic(() => import('../../components/pageCompo/testimonials'), {
