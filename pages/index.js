@@ -21,7 +21,7 @@ import EPGCards0 from '../components/epgCards/card0'
 import EPGCards1 from '../components/epgCards/card1'
 import EPGCards2 from '../components/epgCards/card2'
 import BestInIndustry from '../components/bestInIndustry'
-import { fetchHeadlineData, fetchParams } from '../api'
+import { fetchHeadlineData, fetchParams } from './api'
 import Ratings from '../components/pageCompo/rating'
 
 const language = process.env.NEXT_PUBLIC_LANGUAGE;
