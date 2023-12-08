@@ -1,7 +1,7 @@
 import { useRouter } from "next/router"
 import styles from '../../styles/Home.module.css'
 import {BsShieldFillCheck} from 'react-icons/bs'
-import { translations } from "../data/translation"
+import { translations } from "../../data/translation"
 const language = process.env.NEXT_PUBLIC_LANGUAGE
 
 
