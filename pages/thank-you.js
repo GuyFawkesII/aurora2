@@ -3,6 +3,7 @@ import { Suspense, useEffect,useState } from 'react'
 import dynamic from 'next/dynamic'
 import Brand from "../layout/Brand"
 import { useRouter } from "next/router"
+import { useEffectOnceWhen, useLocalstorageState } from "rooks"
 
 const Footer = dynamic(() => import('../layout/Footer'), {
     suspense: true,
@@ -29,6 +30,24 @@ const ThankYou  = (props) => {
             setDomain(false)
         }
     },[domain])
+    const [hasbeenThanked,setHasBeenThanked]=useLocalstorageState('th',null)
+    useEffect(() => {
+        if (window.gtag) {
+            console.log(window.gtag)
+            window.gtag('event', 'conversion', {
+                'send_to': 'AW-936252912/tL8mCOeszIEZEPCruL4D',
+                'transaction_id': ''  // This should be populated appropriately if needed
+            });
+        }
+    }, []); // Empty dependency array ensures this code runs only 
+    useEffectOnceWhen(()=>{
+        if (window.gtag) {
+            window.gtag('event', 'conversion', {
+                'send_to': 'AW-936252912/tL8mCOeszIEZEPCruL4D',
+            });
+        }
+        setHasBeenThanked('yes')
+    },hasbeenThanked==null)
     return (
         <div
             style={{

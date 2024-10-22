@@ -8,7 +8,7 @@ NEXT_PUBLIC_LANGUAGE=en
 NEXT_PUBLIC_BACKEND_SERVER=https://br.aurorafast.co.uk/
 NEXT_PUBLIC_TAG_MANAGER=GTM-NGH5DKFP
 NEXT_PUBLIC_ANALYTICS=G-7V4Q2R7VPJ
-NEXT_PUBLIC_BACKEND_SERVER1=https://channels.voltaindustrie.com/
+NEXT_PUBLIC_BACKEND_SERVER1=https://br.aurorafast.co.uk/
 NEXT_PUBLIC_IS_TRIAL=yes
 
 # Delete the old .env file if it exists
