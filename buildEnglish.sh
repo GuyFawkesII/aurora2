@@ -34,13 +34,13 @@ if [ $build_exit_code -ne 0 ]; then
   exit $build_exit_code
 fi
 zip -r next.zip package.json .next public .babelrc next.config.js nodemon.json .env .eslintrc.json nginx.conf
-sshpass -p "94RMsY@xlvwS@vz1" scp next.zip root@49.12.106.222:/var/www/vhosts/gallant-moore.49-12-106-222.plesk.page/aurorafast.co.uk
+sshpass -p "Aminos123$%^" scp next.zip root@213.199.56.63:/var/www/vhosts/gallant-moore.49-12-106-222.plesk.page/aurorafast.co.uk
 
 # Use sshpass to execute the command with password input
-sshpass -p "94RMsY@xlvwS@vz1" ssh root@49.12.106.222 "rm -rf /var/www/vhosts/gallant-moore.49-12-106-222.plesk.page/aurorafast.co.uk/.next"
+sshpass -p "Aminos123$%^" ssh root@213.199.56.63 "rm -rf /var/www/vhosts/gallant-moore.49-12-106-222.plesk.page/aurorafast.co.uk/.next"
 
 # Use sshpass to execute the unzip command with password input
-sshpass -p "94RMsY@xlvwS@vz1" ssh root@49.12.106.222 "unzip -o /var/www/vhosts/gallant-moore.49-12-106-222.plesk.page/aurorafast.co.uk/next.zip -d /var/www/vhosts/gallant-moore.49-12-106-222.plesk.page/aurorafast.co.uk/"
-sshpass -p "94RMsY@xlvwS@vz1" ssh root@49.12.106.222 "touch /var/www/vhosts/gallant-moore.49-12-106-222.plesk.page/aurorafast.co.uk/tmp/restart.txt"
+sshpass -p "Aminos123$%^" ssh root@213.199.56.63 "unzip -o /var/www/vhosts/gallant-moore.49-12-106-222.plesk.page/aurorafast.co.uk/next.zip -d /var/www/vhosts/gallant-moore.49-12-106-222.plesk.page/aurorafast.co.uk/"
+sshpass -p "Aminos123$%^" ssh root@213.199.56.63 "touch /var/www/vhosts/gallant-moore.49-12-106-222.plesk.page/aurorafast.co.uk/tmp/restart.txt"
 
 # Additional commands can be added here if needed
